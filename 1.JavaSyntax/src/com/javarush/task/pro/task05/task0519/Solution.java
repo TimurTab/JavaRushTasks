@@ -1,6 +1,5 @@
 package com.javarush.task.pro.task05.task0519;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 /* 
@@ -14,13 +13,12 @@ public class Solution {
 
     public static void main(String[] args) {
         //напишите тут ваш код
-        int[] arraycopy = Arrays.copyOf(array, array.length);
-        Arrays.sort(arraycopy);
-        int arraysearch = Arrays.binarySearch(arraycopy, element);
-        if(arraysearch>= 0){
+        int[] arrayCopy = Arrays.copyOf(array, array.length);
+        Arrays.sort(arrayCopy);
+        int arraysearch = Arrays.binarySearch(arrayCopy, element);
+        if (arraysearch >= 0) {
             System.out.println(true);
-        }
-        else {
+        } else {
             System.out.println(false);
         }
     }
