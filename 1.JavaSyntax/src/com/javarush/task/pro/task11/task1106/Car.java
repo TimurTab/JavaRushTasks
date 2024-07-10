@@ -5,6 +5,7 @@ package com.javarush.task.pro.task11.task1106;
 */
 
 public class Car {
+    // всегда все поля имеют модификатор private, если не указано инное. По умолчанию. Это ИНКАПСУЛЯЦИЯ!!!
     private String modelName;
     private int speed;
 

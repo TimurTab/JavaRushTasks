@@ -7,7 +7,7 @@ package com.javarush.task.pro.task11.task1101;
 public class Solution {
 
     public static void main(String[] args) {
-
+        // тут модификатор static и значит не нужно создавать объект класса. Можно обратиться к переменной без создания объекта класса.
         System.out.println("Человечество живет в Солнечной системе.");
         System.out.println("Ее возраст около " + SolarSystem.age + " лет.");
         System.out.println("В Солнечной системе " + SolarSystem.planetsCount + " известных планет.");

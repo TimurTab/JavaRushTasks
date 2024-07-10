@@ -6,7 +6,7 @@ package com.javarush.task.pro.task11.task1103;
 
 public class Robot {
 
-    public static int robotCounter;
+    public int robotCounter;
 
     public int id;
 
