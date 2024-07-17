@@ -7,12 +7,15 @@ package com.javarush.task.pro.task11.task1107;
 public class Car {
     //напишите тут ваш код
     Engine engine = new Engine();
+
     class Engine {
-      private boolean isRunning;
+        private boolean isRunning; // устанавливаем модификатор доступа. Создаём переменную типа boolean.
+
         public void start() {
             isRunning = true;
         }
-        public void stop(){
+
+        public void stop() {
             isRunning = false;
         }
     }

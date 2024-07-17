@@ -10,7 +10,7 @@ public class Solution {
     public static void main(String[] args) {
         int a = 45;
         int b = 15;
-        Calculator.add(a, b);
+        Calculator.add(a, b); // т.к. Calculator класс статический, то не нужно создавать объект класса родителя. Можно просто вызывать статические методы не создавая объекта.
         Calculator.subtract(a, b);
         Calculator.multiply(a, b);
         Calculator.divide(a, b);
